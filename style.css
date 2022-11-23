@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Press+Start+2P&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Bungee Inline", cursive;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90;
+}
+#chessboard {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-image: url("./Image/backgound.jpg");
+  background-size: contain;
+}
+#store-image {
+  display: none;
+}
+#bg {
+  display: none;
+}
+
+#step {
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
